@@ -17,13 +17,3 @@
 ## Feature micronaut-aot documentation
 
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
-
-
-## Feature kapt documentation
-
-- [Micronaut Kotlin Annotation Processing (KAPT) documentation](https://docs.micronaut.io/snapshot/guide/#kapt)
-
-- [https://kotlinlang.org/docs/kapt.html](https://kotlinlang.org/docs/kapt.html)
-
-
-# validation-different-modules
