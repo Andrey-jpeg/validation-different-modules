@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/models.jar libs/micronaut-validatio
+ n-4.9.0.jar libs/micronaut-kotlin-runtime-4.5.0.jar libs/micronaut-reac
+ tor-3.6.0.jar libs/micronaut-http-server-netty-4.8.0.jar libs/micronaut
+ -http-server-4.8.0.jar libs/micronaut-router-4.8.0.jar libs/micronaut-h
+ ttp-netty-4.8.0.jar libs/micronaut-buffer-netty-4.8.0.jar libs/micronau
+ t-jackson-databind-4.8.0.jar libs/micronaut-jackson-core-4.8.0.jar libs
+ /micronaut-json-core-4.8.0.jar libs/micronaut-http-4.8.0.jar libs/micro
+ naut-context-propagation-4.8.0.jar libs/micronaut-context-4.8.0.jar lib
+ s/micronaut-aop-4.8.0.jar libs/micronaut-inject-4.8.0.jar libs/jakarta.
+ validation-api-3.1.1.jar libs/jackson-datatype-jdk8-2.18.2.jar libs/jac
+ kson-datatype-jsr310-2.18.2.jar libs/jackson-databind-2.18.2.jar libs/j
+ ackson-annotations-2.18.2.jar libs/jackson-core-2.18.2.jar libs/jackson
+ -module-kotlin-2.18.2.jar libs/kotlin-reflect-1.9.25.jar libs/kotlin-st
+ dlib-jdk7-1.9.25.jar libs/kotlin-stdlib-1.9.25.jar libs/kotlin-stdlib-j
+ dk8-1.9.25.jar libs/logback-classic-1.5.15.jar libs/micronaut-core-reac
+ tive-4.8.0.jar libs/annotations-13.0.jar libs/jakarta.annotation-api-2.
+ 1.1.jar libs/netty-codec-http2-4.1.117.Final.jar libs/netty-codec-http-
+ 4.1.117.Final.jar libs/netty-handler-4.1.117.Final.jar libs/netty-codec
+ -4.1.117.Final.jar libs/netty-transport-native-unix-common-4.1.117.Fina
+ l.jar libs/netty-transport-4.1.117.Final.jar libs/netty-buffer-4.1.117.
+ Final.jar libs/netty-resolver-4.1.117.Final.jar libs/netty-common-4.1.1
+ 17.Final.jar libs/reactor-core-3.7.2.jar libs/reactive-streams-1.0.4.ja
+ r libs/micronaut-core-4.8.0.jar libs/slf4j-api-2.0.16.jar libs/jakarta.
+ inject-api-2.0.1.jar libs/logback-core-1.5.15.jar libs/config-1.4.3.jar
+Main-Class: com.example.ApplicationKt
+

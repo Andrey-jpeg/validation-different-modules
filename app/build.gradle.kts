@@ -30,7 +30,7 @@ dependencies {
     ksp("io.micronaut.validation:micronaut-validation-processor")
     implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
-    implementation("io.micronaut.validation:micronaut-validation:4.8.0")
+    implementation("io.micronaut.validation:micronaut-validation:4.9.0")
     implementation("jakarta.validation:jakarta.validation-api")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
