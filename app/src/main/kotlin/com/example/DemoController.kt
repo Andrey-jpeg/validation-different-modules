@@ -10,8 +10,8 @@ import jakarta.validation.Valid
 class DemoController {
 
     @Post
-    fun demo(@Body @Valid request: Request): Request {
-        return request
+    fun demo(@Body @Valid request: Request){
+        println(request.list)
     }
 
     @Put
