@@ -1,7 +1,8 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.25"
     id("com.google.devtools.ksp") version "1.9.25-1.0.20"
-    id("io.micronaut.minimal.library") version "4.4.4"
+    id("io.micronaut.minimal.library") version "4.6.1"
+    id("org.jetbrains.kotlin.plugin.allopen") version "1.9.25"
 }
 
 group = "com.example"
@@ -9,6 +10,10 @@ version = "unspecified"
 
 repositories {
     mavenCentral()
+}
+
+allOpen {
+    annotations("io.micronaut.core.annotation.Introspected")
 }
 
 dependencies {

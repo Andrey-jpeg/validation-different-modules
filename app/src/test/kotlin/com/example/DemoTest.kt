@@ -39,10 +39,13 @@ class DemoTest {
             """.trimIndent()
         )
 
-        val result = blockingClient.exchange(request, String::class.java)
+        val result = runCatching { blockingClient.exchange(request, String::class.java) }
 
 
-        assertEquals(HttpStatus.BAD_REQUEST, result.status)
+        val exception = result.exceptionOrNull()!!
+        val clientException = exception as HttpClientResponseException
+
+        assertEquals(HttpStatus.BAD_REQUEST, clientException.status)
     }
 
     @Test

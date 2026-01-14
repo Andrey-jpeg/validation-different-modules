@@ -3,8 +3,8 @@ plugins {
     id("org.jetbrains.kotlin.plugin.allopen") version "1.9.25"
     id("com.google.devtools.ksp") version "1.9.25-1.0.20"
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.micronaut.application") version "4.4.4"
-    id("io.micronaut.aot") version "4.4.4"
+    id("io.micronaut.application") version "4.6.1"
+    id("io.micronaut.aot") version "4.6.1"
 }
 
 allOpen {
@@ -12,7 +12,7 @@ allOpen {
 }
 
 ksp {
-    arg("kotlin.allopen.annotations", "io.micronaut.http.annotation.Controller|com.example.MyAnnotation")
+    arg("kotlin.allopen.annotations", "io.micronaut.http.annotation.Controller|io.micronaut.validation.Validated")
 }
 
 version = "0.1"
@@ -30,7 +30,7 @@ dependencies {
     ksp("io.micronaut.validation:micronaut-validation-processor")
     implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
-    implementation("io.micronaut.validation:micronaut-validation:4.9.0")
+    implementation("io.micronaut.validation:micronaut-validation")
     implementation("jakarta.validation:jakarta.validation-api")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
